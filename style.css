@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1370px;
+    margin: 0 auto;
+}
+.headersction{
+text-align: center;
+padding: 20px 0;
+background-color: #ffffff;
+}
+.menu{
+
+}
+.menu ul{
+
+}
+.menu ul li{
+list-style: none;
+display: inline-block ; 
+margin: 0 5px;
+}
+.menu ul li a{
+font-size:20px ;
+padding: 16px 14px;
+background-color: #47dbf9;
+display: inline-block;
+color: #050a03;
+transition: .5s;
+position: relative;
+z-index:1 ;
+}
+a{
+   text-decoration: none; 
+}
+.menu ul li a:hover{
+    background-color:white ;
+    color: #89b5bf;
+}
+.menu ul li a::after{
+    content: "";
+    position: absolute;
+    bottom:15px ;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    background-color: black;
+    z-index: -1;
+
+}
+.menu ul li a:hover::after{
+width: 100%;
+transition: .5s;
+}
+
+
+/* herosction */
+
+.herosction{
+    background-color: #47dbf9;
+    padding: 160px 0;
+    text-align: center;
+}
+.hero{
+
+}
+.hero h5{
+padding: 10px;
+color: white;
+font-size: 14px;
+}
+.hero h2{
+color: white;
+font-size: 30px;
+}
+.btn {
+    padding: 16px 21px;
+    background-color: white;
+    display: inline-block;
+    font-size: 19px;
+    border-radius: 5px;
+    margin-top: 14px;
+    position: relative;
+    color: #dfdfdf;
+    z-index: 1;
+}
+.btn::before{
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    background-color: #050a03;
+    z-index: -1;
+}
+.btn:hover::before{
+width: 100%;
+transition: .5s;
+}
+/* gallarysction */
+.gallarysction{
+    padding: 50px 0;
+    text-align: center;
+}
+.imgbox1{
+    display: inline-block;
+    width: 23%;
+    margin: 10px;
+    overflow:hidden;
+}
+.imgbox2{
+    display: inline-block;
+    width: 23%;
+    margin: 10px;
+    overflow:hidden;
+}
+
+.imgbox3{
+    display: inline-block;
+    width: 23%;
+    margin: 10px;
+    overflow:hidden;
+}
+
+.imgbox4{
+    display: inline-block;
+    width: 23%;
+    margin: 10px;
+    overflow:hidden;
+}
+
+.imginner img{
+width: 100%;
+transition: .5s;
+}
+.imgbox1:hover img{
+    transform: rotate(360deg) scale(1.2);
+}
+.imgbox2:hover img{
+    transform: rotate(30deg) scale(1.2);
+}
+.imgbox3:hover img{
+    transform: rotate(-30deg) scale(1.2);
+}
+.imgbox4:hover img{
+    transform: rotate(5deg) scale(1.2);
+}
+.text{
+    padding: 30px 0;
+}
+/* stepsction */
+.stepsction{
+    padding: 50px;
+    text-align: center;
+}
+.step{
+    width: 4%;
+    margin: 0 13%;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 14px 18px;
+    transition: .5s;
+
+}
+.steptext{
+    margin-bottom: 65px;
+}
+.design1{
+    transform: rotate(-45deg);
+}
+.design1:hover{
+    transform: scale(1.2);
+}
+.design2:hover{
+    transform: scale(1.2);
+}
+
+.design3{
+    transform: rotate(45deg);
+}
+.design3:hover{
+    transform: scale(1.2);
+}
+/* fottersction */
+.footersction{
+    text-align: center;
+    background-color:#2e2f31 ;
+    color: white;
+    padding: 10px;
+    
+}
